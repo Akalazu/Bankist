@@ -21,7 +21,7 @@ loginBtn.addEventListener("click", function (e) {
       timer: 3000,
       buttons: false,
     }).then(() => {
-      window.location = "index2.html";
+      window.location = "dashboard.html";
     }); //redirects to homapage after 3s
   } else {
     swal({
